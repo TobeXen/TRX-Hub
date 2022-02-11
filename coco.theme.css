@@ -1,0 +1,63 @@
+/**
+ * @name Dio
+ * @author TRX (XEN)
+ * @version 1.0.0
+ * @description Cocomelon
+ * @source https://github.com/TobeXen/TRX-Hub
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+:root {
+  --background-image: url('https://media0.giphy.com/media/cxY2eMwHffafu/giphy.gif?cid=ecf05e47091qw9smlnqbve3e467mb9z4lbq5xytx1pi4lnjd&rid=giphy.gif&ct=g');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: transparent;
+  --popout-modal-blur: 0px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://media4.giphy.com/media/f9jxYYRVPHtKsCf9sy/giphy.gif?cid=ecf05e47oey9kl4n6di4hlhbd6265v3t7xjebowbhg3b46v3&rid=giphy.gif&ct=g');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.4;
+  --left-brightness: 0.2;
+  --middle-brightness: 0.1;
+  --right-brightness: 0.2;
+  --popout-modal-brightness: 0.4;
+  --gradient-primary: 0,0,0;
+  --gradient-secondary: 189,189,189;
+  --link-colour: rgb(0, 162, 255);
+  --scrollbar-colour: rgb(0, 0, 0);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Rowdies;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 2.5px;
+  --rs-medium-width: 2.5px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: rgb(7, 194, 138);
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #ffffff;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+  --server-listing-width: 126px;--text-voice-channel-color: rgb(142, 146, 151);
+  --text-voice-channel-hover-color: #dcddde;
+  --text-voice-channel-selected-text-color: #fff;
+  --unread-text-channel-color: #fff;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+  --background-transparency: rgba(0, 0, 0, 0.6);
+}
