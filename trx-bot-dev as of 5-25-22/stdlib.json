@@ -1,0 +1,123 @@
+{
+  "name": "TobeXen/TRX-Bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/message/roblox.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/TRX-Discord.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/bot-invite.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/membercount.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/roles.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/profile-pic.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/punch.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/slap.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/whack.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/tic-tac-toe.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/bankai.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/sufionjoke.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/afk.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/server-count.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/test.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/trxupdates.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/developer-jobs.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/dev.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/help.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/TRX-Hub.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/apicheck/apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/apicheck/krnl-apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/apicheck/oxygen-apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/apicheck/wearedevs-apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/apicheck/fluxus-apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/bot-join.js": {
+      "name": "discord.bot.guild.joined"
+    },
+    "functions/events/discord/admin/say.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/admin/lock-unlock.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/admin/purge.js": {
+      "name": "discord.message.create"
+    }
+  },
+  "env": [
+    {
+      "name": "PREFIX",
+      "description": "Your bot's prefix"
+    },
+    {
+      "name": "warning",
+      "description": "emoji of warning [⚠]"
+    },
+    {
+      "name": "sending",
+      "description": "emoji for sending messages [✅]"
+    },
+    {
+      "name": "error",
+      "description": "emoji of error [❌]"
+    },
+    {
+      "name": "bot_owner_id",
+      "description": "Your Discord user ID."
+    },
+    {
+      "name": "log_channel_id",
+      "description": "put the channel id of your log channel!"
+    }
+  ]
+}
