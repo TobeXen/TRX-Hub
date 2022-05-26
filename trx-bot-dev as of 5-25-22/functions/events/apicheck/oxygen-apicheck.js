@@ -9,8 +9,8 @@ if (context.params.event.content.startsWith(`${process.env.PREFIX}oxygen-apichec
   embed: {
     type: `rich`,
     title: `🟢 Oxygen`,
-    description: `__Current Version:__ 36
-    __Last Updated:__ 05/25/2022, 2:24 PM
+    description: `__Current Version:__ 37
+    __Last Updated:__ 05/26/2022, 4:34 PM
     
     **Oxygen is currently updated and working.**`,
     color: 16763904,
