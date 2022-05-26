@@ -3,94 +3,88 @@
   "timeout": 10000,
   "connector": false,
   "events": {
-    "functions/events/autocode/self/deployed.js": {
+    "functions/events/TRX-Bot/status.js": {
       "name": "autocode.self.deployed"
     },
-    "functions/events/discord/message/roblox.js": {
+    "functions/events/apicheck/apicheck.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/TRX-Discord.js": {
+    "functions/events/apicheck/krnl-apicheck.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/bot-invite.js": {
+    "functions/events/apicheck/oxygen-apicheck.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/membercount.js": {
+    "functions/events/apicheck/wearedevs-apicheck.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/roles.js": {
+    "functions/events/apicheck/fluxus-apicheck.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/profile-pic.js": {
+    "functions/events/message/roblox.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/punch.js": {
+    "functions/events/message/TRX-Discord.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/slap.js": {
+    "functions/events/message/bot-invite.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/whack.js": {
+    "functions/events/message/membercount.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/tic-tac-toe.js": {
+    "functions/events/message/roles.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/bankai.js": {
+    "functions/events/message/profile-pic.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/sufionjoke.js": {
+    "functions/events/message/punch.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/afk.js": {
+    "functions/events/message/slap.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/server-count.js": {
+    "functions/events/message/whack.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/test.js": {
+    "functions/events/message/tic-tac-toe.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/trxupdates.js": {
+    "functions/events/message/bankai.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/developer-jobs.js": {
+    "functions/events/message/sufionjoke.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/dev.js": {
+    "functions/events/message/afk.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/help.js": {
+    "functions/events/message/server-count.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/TRX-Hub.js": {
+    "functions/events/message/test.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/apicheck/apicheck.js": {
+    "functions/events/message/trxupdates.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/apicheck/krnl-apicheck.js": {
+    "functions/events/message/developer-jobs.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/apicheck/oxygen-apicheck.js": {
+    "functions/events/message/dev.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/apicheck/wearedevs-apicheck.js": {
+    "functions/events/message/help.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/apicheck/fluxus-apicheck.js": {
+    "functions/events/message/TRX-Hub.js": {
       "name": "discord.message.create"
     },
-    "functions/events/discord/message/bot-join.js": {
+    "functions/events/message/bot-join.js": {
       "name": "discord.bot.guild.joined"
     },
-    "functions/events/discord/admin/say.js": {
-      "name": "discord.message.create"
-    },
-    "functions/events/discord/admin/lock-unlock.js": {
-      "name": "discord.message.create"
-    },
-    "functions/events/discord/admin/purge.js": {
+    "functions/events/message/say.js": {
       "name": "discord.message.create"
     }
   },
@@ -104,12 +98,12 @@
       "description": "emoji of warning [⚠]"
     },
     {
-      "name": "sending",
-      "description": "emoji for sending messages [✅]"
-    },
-    {
       "name": "error",
       "description": "emoji of error [❌]"
+    },
+    {
+      "name": "sending",
+      "description": "emoji for sending messages [✅]"
     },
     {
       "name": "bot_owner_id",
