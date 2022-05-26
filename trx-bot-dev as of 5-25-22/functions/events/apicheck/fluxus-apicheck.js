@@ -9,8 +9,8 @@ if (context.params.event.content.startsWith(`${process.env.PREFIX}fluxus-apichec
   embed: {
     type: `rich`,
     title: `🟢 Fluxus`,
-    description: `__Current Version:__ (V7.2b032)
-    __Last Updated:__ 05/25/2022, 2:28 PM
+    description: `__Current Version:__ (V7.2b033)
+    __Last Updated:__ 05/26/2022, 4:40 PM
     
     **Fluxus is currently updated and working.**`,
     color: 16763904,
