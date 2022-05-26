@@ -10,8 +10,8 @@ if (context.params.event.content.startsWith(`${process.env.PREFIX}apicheck`)) {
     type: `rich`,
     title: `Currunt working api's for roblox update __version-ab1db0c40dae4666__:`,
     description: `🟢 KRNL | (2013I) 05/25/2022, 2:17 PM 
-🟢 Fluxus | (V7.2b032) 05/25/2022, 2:28 PM
-🟢 Oxygen | (36) 05/25/2022, 2:24 PM
+🟢 Fluxus | (V7.2b033) 05/26/2022, 4:40 PM
+🟢 Oxygen | (37) 05/26/2022, 4:34 PM
 🟢 WeAreDevs | (3023) 05/25/2022, 3:22 PM`,
     color: 16763904,
     footer: {
