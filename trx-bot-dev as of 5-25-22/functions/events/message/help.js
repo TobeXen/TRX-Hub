@@ -26,6 +26,7 @@ if (context.params.event.content.startsWith(`${process.env.PREFIX}help`)) {
     **t!apicheck** - shows the current api's status in TRX Hub
     **t!{API}-apicheck** - show more information of selected api
     **t!say** - repeats your message as the bot
+    **t!ping** - shows ping of bots response time
     *you can say TRX Discord, TRX Hub, Roblox Update without prefix*`,
     color:16763904,
     footer: {
