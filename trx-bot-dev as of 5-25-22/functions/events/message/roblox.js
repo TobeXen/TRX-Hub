@@ -4,7 +4,7 @@ const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 let messageContent = [
   `You said **${context.params.event.content}**?`,
   '',
-  `The latest roblox update was version-ab1db0c40dae4666 as of 5/25/22, 1:55 PM {EST} **no current release notes**`,
+  `The latest roblox update was version-ab1db0c40dae4666 as of 5/25/22, 1:55 PM {EST} https://developer.roblox.com/en-us/resources/release-note/Release-Notes-for-528`,
    ''
 ];
 
