@@ -1,0 +1,153 @@
+{
+  "name": "t-r-x/trx-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/apicheck/apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/apicheck/krnl-apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/apicheck/oxygen-apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/apicheck/fluxus-apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/roblox.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/TRX-Discord.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/bot-invite.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/membercount.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/roles.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/profile-pic.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/punch.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/slap.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/whack.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/tic-tac-toe.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/bankai.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/sufionjoke.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/afk.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/server-count.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/test.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/trxupdates.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/developer-jobs.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/dev.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/help.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/TRX-Hub.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/bot-join.js": {
+      "name": "discord.bot.guild.joined"
+    },
+    "functions/events/message/say.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/embed-say.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/message/ping.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/reaction/trx-announcments.js": {
+      "name": "discord.message.reaction.add"
+    },
+    "functions/events/reaction/soldierlife-clans.js": {
+      "name": "discord.message.reaction.add"
+    },
+    "functions/events/apicheck/WRD/wearedevs-apicheck.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/apicheck/WRD/WRD-apicheck.js": {
+      "name": "discord.bot.message.create"
+    }
+  },
+  "env": [
+    {
+      "name": "PREFIX",
+      "description": "Your bot's prefix"
+    },
+    {
+      "name": "bot_owner_id",
+      "description": "Your Discord user ID."
+    },
+    {
+      "name": "error",
+      "description": "emoji of error [❌]"
+    },
+    {
+      "name": "log_channel_id",
+      "description": "put the channel id of your log channel!"
+    },
+    {
+      "name": "sending",
+      "description": "emoji for sending messages [✅]"
+    },
+    {
+      "name": "warning",
+      "description": "emoji of warning [⚠]"
+    },
+    {
+      "name": "CHANNEL_ID",
+      "description": "The channel to send your welcome message"
+    },
+    {
+      "name": "Versions",
+      "description": "Version of bot"
+    },
+    {
+      "name": "vKRNL",
+      "description": "Krnl Version"
+    },
+    {
+      "name": "vFLUXUS",
+      "description": "Fluxus Version"
+    },
+    {
+      "name": "vOXYGEN",
+      "description": "Oxygen Version"
+    },
+    {
+      "name": "vWRD",
+      "description": "WeAreDevs Version"
+    }
+  ]
+}
