@@ -10,7 +10,7 @@ if (context.params.event.content.startsWith(`${process.env.PREFIX}krnl-apicheck`
     type: `rich`,
     title: `🟢 Krnl`,
     description: `__Current Version:__ ${process.env.vKRNL}
-    __Last Updated:__ 05/25/2022, 2:17 PM
+    __Last Updated:__ 06/01/2022, 7:12 PM
     
     **KRNL is currently updated and working.**`,
     color: 16763904,
