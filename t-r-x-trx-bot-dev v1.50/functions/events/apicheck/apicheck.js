@@ -9,7 +9,7 @@ if (context.params.event.content.startsWith(`${process.env.PREFIX}apicheck`)) {
   embed: {
     type: `rich`,
     title: `Currunt working api's for roblox update __version-758ce9d32bfd41b2__:`,
-    description: `🔴 KRNL | (${process.env.vKRNL}) 05/25/2022, 2:17 PM 
+    description: `🟢 KRNL | (${process.env.vKRNL}) 06/01/2022, 7:12 PM
 🟢 Fluxus | (${process.env.vFLUXUS}) 06/01/2022, 3:31 PM
 🟢 Oxygen | (${process.env.vOXYGEN}) 06/01/2022, 3:32 PM
 🟢 WeAreDevs | (${process.env.vWRD}) 06/01/2022, 4:35 PM`,
